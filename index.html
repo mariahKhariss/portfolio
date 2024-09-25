@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-PowerLearnProject</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <!-----Nav Menu-->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <img src="plp logo.png" alt="" class="nav-name" />
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-----Dark mode-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!-----main-->
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm a</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Lanre! I'm a software engineer <br>with 2+ years of experience. I love building<br> creative solutions and tackling challenges<br>with code. I love travelling and playing games.</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                        <a href="Olanrewaju's Resume (0).pdf" download="MyCV.pdf">
+                            <button class="btn">Download CV<i class="uil uil-file"></i></button>
+                          </a>
+                          
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle">
+                            <div class="icon">
+                                <a href="https://facebook.com/yourprofile" target="_blank">
+                                  <i class="uil uil-facebook"></i>
+                                </a>
+                              </div>
+                              <div class="icon">
+                                <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                                  <i class="uil uil-linkedin-alt"></i>
+                                </a>
+                              </div>
+                              <div class="icon">
+                                <a href="https://behance.net/yourprofile" target="_blank">
+                                  <i class="uil uil-behance-alt"></i>
+                                </a>
+                              </div>
+                              <div class="icon">
+                                <a href="https://github.com/yourprofile" target="_blank">
+                                  <i class="uil uil-github-alt"></i>
+                                </a>
+                              </div>                              
+                    </div>
+                </div>
+                <div class="featured-image">
+                <div class="image">
+                    <img src="IMG_6569-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!------about box-->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="IMG_6569-removebg-preview.png" alt="" class="profile"/>
+                                    <h2>Web Developer</h2>
+                                    <p>I hold a degree in Chemical Engineering from Obafemi Awolowo University</p>
+                            </figure>
+                            <button class="about-me-btn">Hire Me</button>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <spam class="title">HTML</spam>
+                            <div class="skill-bar html">
+                                <spam class="skill-per">
+                                    <spam class="tooltip">80%</spam>
+                                </spam>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <spam class="title">CSS</spam>
+                            <div class="skill-bar css">
+                                <spam class="skill-per">
+                                    <spam class="tooltip">80%</spam>
+                                </spam>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <spam class="title">Python</spam>
+                            <div class="skill-bar">
+                                <spam class="skill-per python">
+                                    <spam class="tooltip">70%</spam>
+                                </spam>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <spam class="title">JavaScript</spam>
+                            <div class="skill-bar">
+                                <spam class="skill-per javascript">
+                                    <spam class="tooltip">80%</spam>
+                                </spam>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <spam class="title">PHP</spam>
+                            <div class="skill-bar">
+                                <spam class="skill-per php">
+                                    <spam class="tooltip">10%</spam>
+                                </spam>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-----Project box-->
+            <section class="section" id="Projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label>10+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clients</h3>
+                        <label>20+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>2+ years experience in web development</label>
+                    </div>
+                    <div class="project-box">
+                        <a href="https://github.com/yourusername" target="_blank">
+                            <i class="uil uil-github-alt"></i>
+                            <h3>GitHub Projects</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>            
+                </div>
+            </section>
+            <!-----Contact Box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's work Together</h1>
+                    <spam>Do you have a project in mind, contact me here</spam>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me<i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i>Email:kylelanre.com</p>
+                            <p><i class="uil uil-phone"></i>Phone: +2347062432286</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-fields" placeholder="Your Name">
+                                <input type="text" class="input-fields" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send<i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!----Footer-->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#project">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="uil uil-facebook"></i></div>
+                <div class="icon"><i class="fa-brands fa-linkedin-in icon"></i></div>
+                <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">PowerLearnProject</a>-  All rights reserved 2024</p>
+
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollReveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
